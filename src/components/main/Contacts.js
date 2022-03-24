@@ -2,7 +2,7 @@ import React from 'react'
 
 import {connect} from "react-redux";
 import {withRouter} from '../../helpers/with-router'
-import {BsFacebook, BsInstagram, BsLinkedin} from "react-icons/bs";
+import {BsLinkedin} from "react-icons/bs";
 
 class Solutions extends React.Component {
     constructor(props) {
@@ -49,8 +49,6 @@ class Solutions extends React.Component {
                         <div className="stat">
                             <div className="stat-title mb-2">Соцсети</div>
                             <div className="stat-value text-2xl flex flex-row space-x-10 font-semibold">
-                                <a href={"https://www.facebook.com/knottasoft/"} target={"_blank"} rel="noreferrer"><BsFacebook /></a>
-                                <a href={"https://www.instagram.com/knottasoft/"} target={"_blank"} rel="noreferrer"><BsInstagram /></a>
                                 <a href={"https://www.linkedin.com/company/knotta"} target={"_blank"} rel="noreferrer"><BsLinkedin /></a>
                             </div>
                         </div>
